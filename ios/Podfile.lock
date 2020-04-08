@@ -1,0 +1,35 @@
+PODS:
+  - Flutter (1.0.0)
+  - shared_preferences (0.0.1):
+    - Flutter
+  - Stripe (11.5.0)
+  - stripe_payment (0.0.1):
+    - Flutter
+    - Stripe
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - stripe_payment (from `.symlinks/plugins/stripe_payment/ios`)
+
+SPEC REPOS:
+  trunk:
+    - Stripe
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  stripe_payment:
+    :path: ".symlinks/plugins/stripe_payment/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  shared_preferences: 1feebfa37bb57264736e16865e7ffae7fc99b523
+  Stripe: 10761682d20dc491c52287393c800db056c9748d
+  stripe_payment: bdd1575a69e8a74822e1febb3fd02192ff371c5a
+
+PODFILE CHECKSUM: 1b66dae606f75376c5f2135a8290850eeb09ae83
+
+COCOAPODS: 1.8.4

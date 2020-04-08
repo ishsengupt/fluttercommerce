@@ -1,0 +1,19 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "cart",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "users": {
+      "collection": "user",
+      "dominant": true,
+      "via": "carts",
+      "plugin": "users-permissions"
+    }
+  }
+}
