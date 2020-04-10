@@ -89,7 +89,7 @@ class CartPageState extends State<CartPage> {
               children: state.cards
                   .map<Widget>((c) => (ListTile(
                       leading: CircleAvatar(
-                          backgroundColor: Colors.deepOrange,
+                          backgroundColor: Colors.white,
                           child: Icon(Icons.credit_card, color: Colors.white)),
                       title: Text(
                           "${c['card']['exp_month']}/${c['card']['exp_year']}, ${c['card']['last4']}"),

@@ -6,13 +6,16 @@ class Product {
   String description;
   num price;
   Map<String, dynamic> picture;
+  String color;
 
-  Product(
-      {@required this.id,
-      @required this.name,
-      @required this.description,
-      @required this.price,
-      @required this.picture});
+  Product({
+    @required this.id,
+    @required this.name,
+    @required this.description,
+    @required this.price,
+    @required this.picture,
+    @required this.color,
+  });
 
   Map<String, dynamic> toJson() {
     return {
@@ -20,7 +23,8 @@ class Product {
       "name": name,
       "description": description,
       "price": price,
-      "picture": picture
+      "picture": picture,
+      "color": color
     };
   }
 
@@ -28,6 +32,7 @@ class Product {
     return Product(
         id: json['id'],
         name: json['name'],
+        color: json['color'],
         description: json['description'],
         price: json['price'],
         picture: json['picture']);

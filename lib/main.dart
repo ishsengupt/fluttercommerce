@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'package:my_commerce_app/models/app_state.dart';
 import 'package:my_commerce_app/pages/cart_page.dart';
 import 'package:my_commerce_app/redux/actions.dart';
@@ -45,8 +46,11 @@ class MyApp extends StatelessWidget {
                 })
           },
           theme: ThemeData(
+              appBarTheme: AppBarTheme(
+                elevation: 0, // This removes the shadow from all App Bars.
+              ),
               brightness: Brightness.dark,
-              primaryColor: Colors.cyan[400],
+              primaryColor: Colors.white,
               accentColor: Colors.deepOrange[200],
               textTheme: TextTheme(
                   headline:
